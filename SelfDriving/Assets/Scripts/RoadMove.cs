@@ -15,7 +15,7 @@ public class RoadMove : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        Debug.Log(OtherRoad.transform.position + " " + this.transform.position);
+      //  Debug.Log(OtherRoad.transform.position + " " + this.transform.position);
         NewPosition = this.transform.position;
         rb = GetComponent<Rigidbody>();
 
@@ -31,7 +31,7 @@ public class RoadMove : MonoBehaviour {
         //rb.AddForce(transform.forward * thrust);
         if (SpecificLogger)
         {
-            Debug.Log(NewPosition.x);
+            //Debug.Log(NewPosition.x);
         }
     }
 

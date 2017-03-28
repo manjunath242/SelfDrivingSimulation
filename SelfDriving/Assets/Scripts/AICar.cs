@@ -44,7 +44,7 @@ public class AICar : MonoBehaviour {
                 FlashIndicator();
                 if (triggerLaneChange < 0)
                 {
-                    Debug.Log("Changing lane now");
+                   // Debug.Log("Changing lane now");
                     var step = laneChangeSpeed * Time.deltaTime;
                     transform.position = Vector3.MoveTowards(transform.position, targetPos, step);
                     if (transform.position == targetPos)

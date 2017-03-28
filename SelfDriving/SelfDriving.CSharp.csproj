@@ -67,7 +67,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AICar.cs" />
     <Compile Include="Assets\Scripts\Bend.cs" />
+    <Compile Include="Assets\Scripts\CaptureScreen.cs" />
+    <Compile Include="Assets\Scripts\CreateImages.cs" />
     <Compile Include="Assets\Scripts\GenerateRoad.cs" />
+    <Compile Include="Assets\Scripts\HiResScreenShots.cs" />
+    <Compile Include="Assets\Scripts\MyClient.cs" />
     <Compile Include="Assets\Scripts\RoadMove.cs" />
     <Compile Include="Assets\Scripts\Rules.cs" />
     <Compile Include="Assets\Scripts\carMove.cs" />
